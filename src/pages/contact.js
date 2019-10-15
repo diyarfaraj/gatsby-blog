@@ -4,8 +4,7 @@ import Layout from '../components/layout';
 
 const ContactPage = () => {
 	return (
-		<div>
-			<Header />
+		<Layout>
 			<h1> Contact Diyar</h1>
 			<p>
 				Best way to reach Diyar is throush his{' '}
@@ -13,8 +12,7 @@ const ContactPage = () => {
 					Twitter
 				</a>
 			</p>
-			<Footer />
-		</div>
+		</Layout>
 	);
 };
 
