@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Footer from '../components/footer';
+import Layout from '../components/layout';
 
 const ContactPage = () => {
 	return (
 		<div>
+			<Header />
 			<h1> Contact Diyar</h1>
 			<p>
 				Best way to reach Diyar is throush his{' '}
