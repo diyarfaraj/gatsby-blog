@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 const IndexPage = () => {
 	return (
 		<Layout>
-			<h1> Gothenburg Interactive Solutions</h1>
-			<h2>The helping hand in your digital growth</h2>
+			<h1> Hej.</h1>
+			<h2>Vi är den hjälpande handen i din digitala tillväxt.</h2>
 
 			<p>
-				Need a developer? contact <Link to="/contact">Us</Link>{' '}
+				Behöver du hemsida? Konakta <Link to="/contact">oss</Link>{' '}
 			</p>
 		</Layout>
 	);
