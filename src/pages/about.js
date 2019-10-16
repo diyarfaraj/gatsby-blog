@@ -5,9 +5,9 @@ import Layout from '../components/layout';
 const AboutPage = () => {
 	return (
 		<Layout>
-			<h1>About Diyar</h1>
+			<h1>Om GOTIS</h1>
 			<p>
-				Diyar is a developer! <Link to="/contact">Contact me</Link>
+				Gothenburg Interactive Solutions är en digital webbbyrå. <Link to="/contact">Kontaka oss</Link>
 			</p>
 		</Layout>
 	);

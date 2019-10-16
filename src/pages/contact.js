@@ -5,9 +5,9 @@ import Layout from '../components/layout';
 const ContactPage = () => {
 	return (
 		<Layout>
-			<h1> Contact Diyar</h1>
+			<h1> Kontaka Oss</h1>
 			<p>
-				Best way to reach Diyar is throush his{' '}
+				Just nu kan man endast kontakta grundaren Diyar Faraj på hans his{' '}
 				<a target="_blank" href="https://twitter.com/diyarfaraj">
 					Twitter
 				</a>

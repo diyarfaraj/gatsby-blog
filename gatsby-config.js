@@ -6,5 +6,9 @@
 
 module.exports = {
 	/* Your site config here */
+	siteMetadata: {
+		title: 'Gothenburg Interactive Solutions!',
+		author: 'Diyar Faraj'
+	},
 	plugins: [ 'gatsby-plugin-sass' ]
 };
