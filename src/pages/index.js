@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 const IndexPage = () => {
 	return (
 		<Layout>
-			<h1> Diyar Faraj Blog</h1>
-			<h2>I'm Diyar</h2>
+			<h1> Gothenburg Interactive Solutions</h1>
+			<h2>The helping hand in your digital growth</h2>
 
 			<p>
-				Need a developer? contact <Link to="/contact">Me</Link>{' '}
+				Need a developer? contact <Link to="/contact">Us</Link>{' '}
 			</p>
 		</Layout>
 	);
