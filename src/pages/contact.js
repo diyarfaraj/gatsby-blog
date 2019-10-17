@@ -7,10 +7,8 @@ const ContactPage = () => {
 		<Layout>
 			<h1> Kontaka Oss</h1>
 			<p>
-				Just nu kan man endast kontakta grundaren Diyar Faraj på hans his{' '}
-				<a target="_blank" href="https://twitter.com/diyarfaraj">
-					Twitter
-				</a>
+				Lättast att nå oss är genom att skicka ett mejl till {' '}
+				<a href="mailto: contact@gotis.se">contact@gotis.se</a>
 			</p>
 		</Layout>
 	);
