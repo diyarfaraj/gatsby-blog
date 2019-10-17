@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
 import headerStyles from './header.module.scss';
 
+//Display dynamic info
 const Header = () => {
 	const data = useStaticQuery(graphql`
 		query {
@@ -12,6 +13,8 @@ const Header = () => {
 			}
 		}
 	`);
+
+	//Header nav
 	return (
 		<header className={headerStyles.header}>
 			<h1>

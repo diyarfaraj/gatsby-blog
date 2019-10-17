@@ -9,7 +9,9 @@ const IndexPage = () => {
 			<h2>Vi är den hjälpande handen i din digitala tillväxt.</h2>
 
 			<p>
-				Behöver du hemsida? Konakta <Link to="/contact">oss</Link>{' '}
+				Behöver du hemsida? Konakta <Link to="/contact">oss</Link> <br />
+				<br />
+				Den här hemsidan är under byggnation! ⚒😉
 			</p>
 		</Layout>
 	);
