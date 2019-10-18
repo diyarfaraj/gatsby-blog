@@ -20,7 +20,7 @@ const BlogPage = () => {
 
 	return (
 		<Layout>
-			<h1>My Blog</h1>
+			<h1>Vår Blog</h1>
 			<ol>
 				{BlogData.allMarkdownRemark.edges.map((edge) => {
 					return (
