@@ -18,6 +18,28 @@ module.exports.onCreateNode = ({ node, actions }) => {
 };
 
 //Create pages for every node/slug/plogpage
-module.exports.createPages = () => {
-	//TEXT HÄR
+module.exports.createPages = async ({ graphql, actions }) => {
+	const { createPage } = actions;
+
+	//1. get path to template
+	const blogTemplate = path.resolve('./src/templates/blog.js');
+
+	const res = await graphql(`
+	query {
+		allMarkdownRemark {
+			edges {
+				node {
+					fields{
+						slug
+					}
+				}
+			}
+		}
+	}
+	
+	`);
+
+	//2. get markdown data
+
+	//3. Create new pages
 };
