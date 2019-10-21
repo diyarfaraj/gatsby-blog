@@ -7,7 +7,7 @@
 module.exports = {
 	/* Your site config here */
 	siteMetadata: {
-		title: 'Gothenburg Interactive Solutions!',
+		title: 'Gothenburg Interactive Solutions',
 		author: 'Diyar Faraj'
 	},
 	plugins: [
