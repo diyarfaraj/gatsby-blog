@@ -16,13 +16,9 @@
     "gatsby": "^2.15.36",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-sass": "^2.1.20",
-<<<<<<< HEAD
-    "gatsby-source-contentful": "^2.1.50",
-=======
-    "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-remark-images": "^3.1.28",
     "gatsby-remark-relative-images": "^0.2.3",
->>>>>>> 61e23a4d3e4b5095b6cf8a89a7e86a67517a137a
+    "gatsby-source-contentful": "^2.1.50",
     "gatsby-source-filesystem": "^2.1.33",
     "gatsby-transformer-remark": "^2.6.30",
     "node-sass": "^4.12.0",
