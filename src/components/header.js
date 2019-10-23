@@ -40,7 +40,7 @@ const Header = () => {
 					</li>
 					<li>
 						<Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">
-							Om oss
+							Om Oss
 						</Link>{' '}
 					</li>
 					<li>
