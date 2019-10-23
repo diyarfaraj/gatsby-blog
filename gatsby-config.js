@@ -11,6 +11,15 @@ module.exports = {
 		author: 'Diyar Faraj'
 	},
 	plugins: [
+		{
+			resolve: 'gatsby-plugin-web-font-loader',
+			options: {
+				google: {
+					families: [ 'Montserrat', 'sans-serif' ]
+				}
+			}
+		},
+
 		'gatsby-plugin-react-helmet',
 		{
 			resolve: 'gatsby-source-contentful',
